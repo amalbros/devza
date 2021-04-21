@@ -1,7 +1,9 @@
 
 @import "~bootstrap/dist/css/bootstrap.css";
 /* @import '~font-awesome/css/font-awesome.css'; */
-
+*{
+  font-family: Montserrat;
+}
 #scanfcode
 {
   border-radius:0px;
@@ -44,6 +46,9 @@
 #button-link a
 {
   color:#f2f2f2;
+}
+.a{
+  font-size: 1em;
 }
 
 
