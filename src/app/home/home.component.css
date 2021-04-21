@@ -257,11 +257,29 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size:2.5em;
+font-size:5em;
+
 letter-spacing: 0.1em;
 color: #3A3A3A;
 
 
+}
+.sliderText{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 0%;
+color: #3A3A3A;
+
+}
+.sliderSmallText{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 0%;
+color: #3A3A3A;
 }
 
 
