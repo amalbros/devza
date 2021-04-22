@@ -409,7 +409,9 @@ color: #3A3A3A;font-size:3em;
     .homeBackgroundText{
         margin-top:700px;
     }
-   
+   .card{
+       margin-left:0%;
+   }
   }
   @media screen  and (max-width:510px){
     .homeBackgroundText{
