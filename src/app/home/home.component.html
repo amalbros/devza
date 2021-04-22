@@ -2,7 +2,7 @@
     <div class="row" >
         
         <div class="col-md-4" style="z-index:9">
-            <p style='float:left;margin-left:-8%;margin-top:85%'><svg width="21" height="150" viewBox="0 0 21 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <p  class="fourDots"><svg width="21" height="150" viewBox="0 0 21 175" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <ellipse cx="10.5" cy="11.1443" rx="3.5" ry="3.41388" fill="#3A3A3A"/>
                 <ellipse cx="10.5" cy="51.1356" rx="3.5" ry="3.41388" fill="#3A3A3A"/>
                 <ellipse cx="10.5" cy="91.1268" rx="3.5" ry="3.41388" fill="#3A3A3A"/>
@@ -12,23 +12,36 @@
                 </svg>
             </p>
             
-            <p class="handpicked" style="margin-top:45%;margin-left:30%;width:100%">HANDPICKED FOR YOU</p>
-            <button class="explore" style="margin-left:30%" >Explore</button>
+            <p class="handpicked" >HANDPICKED FOR YOU</p>
+            <button class="explore"  >Explore</button>
         </div>
         <div class="col-md-8"  style="position:relative;width:100%;height:800px;object-fit:contain;background: url('../../assets/pexels-eric-montanah-1350789 1.png');" >
     
-            <div style="position:absolute;margin-left:-15px;width:100%;height:10%;position:absolute;margin-top:94%;background-color:white;opacity:0.7">
+            <div class="homeBackgroundText">
             <p class="sliderText" style="margin-top:20px;margin-left:10px">LIVING ROOM DECOR COLLECTION</p>
             <p class="sliderSmallText" style="margin-top:20px;margin-left:10px">STARTS FROM $114.5</p>
             </div>
         </div>
     </div>
 </div>
-<p class="shopByRoom" style="margin-left:35%;margin-top:100px;margin-bottom: 40px;font-size:3em">SHOP BY ROOM</p>
+<div class="container" style="margin-top:8%;margin-bottom:5%">
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+            <p class="shopByRoom" >SHOP BY ROOM</p>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+</div>
+
 <div class="container" >
     <div class="row" style="height:800px">
-        <div class="col-sm-6" >
-            <div style="width:100%;height:50%;background: url('../../assets/Rectangle 4.png');margin-bottom:20px;position:relative"><p class="shopByRoomText" style="margin-top:40%;margin-left:40%" >BED  ROOM 
+        <div class="col-md-6" style="margin-bottom:5%;">
+            <div style="width:100%;height:50%;background:url('../../assets/Rectangle 4.png');margin-bottom:20px;position:relative"><p class="shopByRoomText" style="margin-top:40%;margin-left:40%" >BED  ROOM 
                 </p>
                 <p style="position:absolute;margin-top:42%;margin-left:35%"><svg width="264" height="1" viewBox="0 0 264 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <line y1="0.5" x2="200.008" y2="0.5" stroke="black"/>
@@ -41,10 +54,8 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.46875 17.0691C5.46875 16.7862 5.58398 16.5149 5.7891 16.3148C5.99422 16.1147 6.27242 16.0023 6.5625 16.0023L26.25 16.0023C26.5401 16.0023 26.8183 16.1147 27.0234 16.3148C27.2285 16.5149 27.3437 16.7862 27.3437 17.0691C27.3437 17.3521 27.2285 17.6234 27.0234 17.8235C26.8183 18.0236 26.5401 18.136 26.25 18.136L6.5625 18.136C6.27242 18.136 5.99422 18.0236 5.7891 17.8235C5.58398 17.6234 5.46875 17.3521 5.46875 17.0691Z" fill="#3A3A3A"/>
                 </svg>
                 </p></div>
-           <!-- <img src="../../assets/Rectangle 4.png" width="100%" height="50%">
-           <img src="../../assets/Rectangle 6.png" width="100%" height="50%"  style="margin-top:20px"> -->
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <div style="background: url('../../assets/Rectangle 5.png');width:100%;height:60%;margin-bottom:20px;position:relative"><p class="shopByRoomText">LIVING ROOM <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1005 24.2256C20.9986 24.1265 20.9178 24.0088 20.8627 23.8792C20.8076 23.7496 20.7792 23.6106 20.7792 23.4703C20.7792 23.33 20.8076 23.191 20.8627 23.0614C20.9178 22.9318 20.9986 22.8141 21.1005 22.715L26.8908 17.0693L21.1005 11.4236C20.8951 11.2233 20.7797 10.9516 20.7797 10.6683C20.7797 10.385 20.8951 10.1133 21.1005 9.91295C21.3059 9.71263 21.5844 9.60009 21.8749 9.60009C22.1653 9.60009 22.4439 9.71263 22.6493 9.91295L29.2118 16.314C29.3136 16.4131 29.3944 16.5308 29.4496 16.6604C29.5047 16.79 29.5331 16.929 29.5331 17.0693C29.5331 17.2096 29.5047 17.3486 29.4496 17.4782C29.3944 17.6078 29.3136 17.7255 29.2118 17.8246L22.6493 24.2256C22.5477 24.325 22.427 24.4038 22.2941 24.4576C22.1612 24.5114 22.0187 24.5391 21.8749 24.5391C21.731 24.5391 21.5886 24.5114 21.4557 24.4576C21.3228 24.4038 21.2021 24.325 21.1005 24.2256Z" fill="#3A3A3A"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.46875 17.0691C5.46875 16.7862 5.58398 16.5149 5.7891 16.3148C5.99422 16.1147 6.27242 16.0023 6.5625 16.0023L26.25 16.0023C26.5401 16.0023 26.8183 16.1147 27.0234 16.3148C27.2285 16.5149 27.3437 16.7862 27.3437 17.0691C27.3437 17.3521 27.2285 17.6234 27.0234 17.8235C26.8183 18.0236 26.5401 18.136 26.25 18.136L6.5625 18.136C6.27242 18.136 5.99422 18.0236 5.7891 17.8235C5.58398 17.6234 5.46875 17.3521 5.46875 17.0691Z" fill="#3A3A3A"/>
@@ -62,14 +73,14 @@
 
 
 
+<div class="container" style="margin-top:8%;margin-bottom:5%">
+    <div class="row">
+        <div class="col-md-3">
 
-
-
-<p style="margin-left:35%;margin-top:100px;font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-color: #3A3A3A;font-size:3em">FEATURED PRODUCTS</p>
-<p style="margin-top:2%;margin-left:40%;margin-bottom: 40px;
+        </div>
+        <div class="col-md-7">
+            <p class="featuredProducts">FEATURED PRODUCTS</p>
+<p style="margin-top:2%;margin-left:8%;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -77,10 +88,7 @@ font-size: 1em;
 color: rgba(58, 58, 58, 0.5);
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 ">Select a category with special high end quality</p>
-
-
-<div style="margin-left:30%;margin-bottom:20px">
-   <button style=" font-family: Montserrat;
+<button style=" font-family: Montserrat;
    font-style: normal;
    font-weight: 600;
    width: 150px;
@@ -94,8 +102,20 @@ height: 40px;
    <button class="product">CHAIRS</button>
    <button class="product">CABINET</button>
 <button class="product">BED</button>
+        </div>
+        <div class="col-md-2">
 
+        </div>
+    </div>
 </div>
+
+
+
+
+
+
+
+
 <div class="container" >
     <div class="row">
         <div class="col-sm-4 ">
@@ -260,7 +280,7 @@ height: 40px;
 </div>
 <div class="container" >
     <div class="row">
-        <div class="col-sm-6" style="z-index:9">
+        <div class="col-md-6" style="z-index:9">
             <p class="customizedRequirements">CUSTOMIZED REQUIREMENTS</p>
             <p class='customizedRequirementsText'>You Ideate,<span style="
                 color: #B09E80;">We Create</span></p>
@@ -272,19 +292,19 @@ height: 40px;
             </button>
         
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <img src="../../assets/image 8.png" width="100%" height="100%">
         </div>
     </div>
 </div>
-<div class="container" >
+<div class="container" style="margin-top:5%">
     <div class="row">
-        <div class="col-sm-3">
-            <img src="../../assets/Logo.svg" width="50%" height="50%">
+        <div class="col-md-3">
+            <img src="../../assets/Logo.svg" width="50%" height="50%" >
             
             <p class="footerText">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
-        <div class="col-sm-3" style="margin-top:7%">
+        <div class="col-md-3" style="margin-top:7%">
             <p class="footerHeading">CUSTOMER SERVICES</p>
             <p class="footerText">Contact Us</p>
             <p class="footerText">Delivery</p>
@@ -292,7 +312,7 @@ height: 40px;
             <p class="footerText">Refund Policy</p>
             <p class="footerText">FAQs</p>
         </div>
-        <div class="col-sm-3" style="margin-top:7%">
+        <div class="col-md-3" style="margin-top:7%">
             <p class="footerHeading">MY ACCOUNT</p>
             <p class="footerText">Cart</p>
             <p class="footerText">Wishlist</p>
@@ -300,7 +320,7 @@ height: 40px;
             <p class="footerText">My account</p>
             <p class="footerText">Privacy Policy</p>
         </div>
-        <div class="col-sm-3" style="margin-top:7%" >
+        <div class="col-md-3" style="margin-top:7%" >
             <p class="footerHeading">CONTACT US</p>
             <p class="footerText" >Showroom: 1901 Thornridge Cir. Shiloh, Hawaii 81063
             </p>
@@ -311,37 +331,37 @@ height: 40px;
             <p class="footerText" >Hotline: (808) 555-0111</p>
         </div>
     </div>
-    <div class="row" style="margin-top:5%">
-        <div class="col-sm-4">
+    <div class="row" style="margin-top:7%">
+        <div class="col-md-4">
             
-            <img src="../../assets/cil_truck.png" width="20%" style="float:left;margin-right:10px">
+            <img src="../../assets/cil_truck.png" height="50%" style="float:left;margin-right:10px">
             <p class="footerBottomText" style="margin-top:5%;">FREE DELIVERY</p>
             <p class="footerText">Amet minim mollit non deserunt</p>
         </div>
-        <div class="col-sm-4">
-            <img src="../../assets/la_tools-solid.png" width="20%" style="float:left;margin-right:10px">
+        <div class="col-md-4">
+            <img src="../../assets/la_tools-solid.png" height="50%" style="float:left;margin-right:10px">
             <div >
             <p class="footerBottomText" style="margin-top:5%;">FREE INSTALLATION</p>
             <p class="footerText">Amet minim mollit non deserunt</p>
             </div>
         </div>
-        <div class="col-sm-4">
-            <img src="../../assets/ri_customer-service-2-line.png" width="20%" style="float:left;margin-right:10px">
+        <div class="col-md-4">
+            <img src="../../assets/ri_customer-service-2-line.png" height="50%" style="float:left;margin-right:10px">
             <p class="footerBottomText" style="margin-top:5%">CUSTOMER SUPPORT 24 HOURS</p>
             <p class="footerText">Amet minim mollit non deserunt</p>
         </div>
     </div>
     <div class="row" style="margin-top:3%">
-        <div class="col-sm-3">
+        <div class="col-md-3">
 
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 1C4.13438 1 1 4.13438 1 8C1 11.8656 4.13438 15 8 15C11.8656 15 15 11.8656 15 8C15 4.13438 11.8656 1 8 1ZM8 13.8125C4.79063 13.8125 2.1875 11.2094 2.1875 8C2.1875 4.79063 4.79063 2.1875 8 2.1875C11.2094 2.1875 13.8125 4.79063 13.8125 8C13.8125 11.2094 11.2094 13.8125 8 13.8125ZM8.0875 5.48906C8.91562 5.48906 9.47812 6.01719 9.54062 6.79219C9.54531 6.85781 9.6 6.90781 9.66562 6.90781H10.5516C10.5922 6.90781 10.625 6.875 10.625 6.83437C10.625 5.47969 9.55625 4.53125 8.08281 4.53125C6.36562 4.53125 5.375 5.69062 5.375 7.60625V8.42344C5.375 10.325 6.36562 11.4688 8.08281 11.4688C9.55156 11.4688 10.625 10.55 10.625 9.25937C10.625 9.21875 10.5922 9.18594 10.5516 9.18594H9.66406C9.59844 9.18594 9.54531 9.23594 9.53906 9.3C9.47344 10.0203 8.9125 10.5156 8.08594 10.5156C7.06563 10.5156 6.49062 9.76719 6.49062 8.42813V7.60625C6.49219 6.24687 7.06875 5.48906 8.0875 5.48906Z" fill="#3A3A3A" fill-opacity="0.6"/>
                 </svg>
                  2020 Copyright Woodstock Furniture. All Rights Reserved
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
 
         </div>
     </div>
