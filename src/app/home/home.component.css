@@ -391,7 +391,7 @@ color: #3A3A3A;font-size:3em;
         margin-bottom:5%;
     }
     .handpicked{
-        
+        margin-top:10%;
         margin-left:10%;
         font-size:3em;
     }
@@ -413,6 +413,15 @@ color: #3A3A3A;font-size:3em;
    .card{
        margin-left:0%;
    }
+   .verticalLine{
+       display:none
+   }
+   .bag{
+       display:none
+   }
+   .buyNow{
+       display:none
+   }
   }
   @media screen  and (max-width:510px){
     .homeBackgroundText{
@@ -422,7 +431,7 @@ color: #3A3A3A;font-size:3em;
         margin-top:0%;
     }
     .handpicked{
-        margin-top:0%;
+        margin-top:5%;
     }
   }
   /* @media screen and  (max-width: 750px) {
