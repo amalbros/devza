@@ -1,8 +1,6 @@
 .product{
-    
 width: 150px;
 height: 40px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
@@ -11,10 +9,8 @@ line-height: 0%;
 border:1px white;
 background-color: light grey;
 color: rgba(58, 58, 58, 0.8)
-
 }
 .show{
-
 border: 1px solid #3A3A3A;
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -28,12 +24,8 @@ font-weight: 600;
 font-size: 1.1em;
 line-height: 22px;
 color: #3A3A3A;
-
-
 }
 .discountAndSales{
-    
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -52,32 +44,24 @@ line-height: 120%;
 color: rgba(58, 58, 58, 0.5);
 }
 .formText{
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size: 1.1em;
 line-height: 120%;
 color: rgba(58, 58, 58, 0.5);
-
 }
 .stayUpdated{
-  
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
 font-size:2.5em;
 line-height: 120%;
-
 letter-spacing: 0.05em;
-
 color: #3A3A3A;
-
-
 }
+
 .email{
-  
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -86,6 +70,7 @@ font-size: 1.1em;
 line-height: 120%;
 color: rgba(58, 58, 58, 0.3);
 }
+
 .subscribe{
      font-family: Montserrat; 
      font-style: normal; 
@@ -93,7 +78,6 @@ color: rgba(58, 58, 58, 0.3);
      font-size: 1.1em; 
      line-height: 120%; 
      color: #B09E80;
-     /* SUSCRIBE */
 }
 .iconText{
     margin-top:10%;
@@ -199,7 +183,7 @@ color: rgba(58, 58, 58, 0.6);
     font-style: normal;
     font-weight: 500;
     font-size: 0.8em;
-    line-height: 120%;
+    /* line-height: 120%; */
     color: rgba(58, 58, 58, 0.6);
     margin-top:20%;
     }
@@ -429,7 +413,10 @@ color: #3A3A3A;font-size:3em;
        display:none
    }
   }
-
+.shopByRoomText:hover{
+    text-decoration: underline;
+    color:black;
+}
 
   @media screen and  (max-width: 800px) {
     .iconsListImg{
@@ -443,21 +430,7 @@ color: #3A3A3A;font-size:3em;
     }
   }
 
-  /* @media screen and (max-width:600px){
-    #iconsList{
-        margin-top:10%;
-        margin-bottom:5%
-    }
-    .shopByRoom{
-        font-size:2em;
-    }
-} */
-/* @media screen and (max-width:310px){
-    
-    .handpicked{
-        font-size:1.8em;
-    }
-} */
+
 
 
 
